@@ -32,14 +32,14 @@ nextRand prevSeed = (a * prevSeed + c) `mod` m
 -- >>> length <$> validWords
 -- 14855
 validWords :: IO [String]
-validWords = lines <$> readFile "./all_words.txt"
+validWords = lines <$> readFile "src/all_words.txt"
 
 -- | Read the "src/possible_answers.txt" file in to a list
 -- This files contains all possible answers wordle may use
 -- >>> length <$> validAnswers
 -- 2310
 validAnswers :: IO [String]
-validAnswers = lines <$> readFile "./possible_answers.txt"
+validAnswers = lines <$> readFile "src/possible_answers.txt"
 
 -- | Generate a random Wordle answer
 -- Do not use the current seed, but the next seed...

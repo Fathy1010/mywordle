@@ -6,6 +6,7 @@ import           Instances      (parse)
 import           JSON           (JsonValue)
 import           Network.Socket
 import           SocketParser   (parseHTTPRequest)
+import           System.Environment (lookupEnv)
 import           System.IO
 import           Text.Read      (readMaybe)
 
@@ -210,12 +211,15 @@ parseRequest = (snd <$>) . parse parseHTTPRequest -- Simplified, replace with ac
 -- | Main server loop to initialize and run the server.
 -- This function sets up the socket, binds it to an address, and starts listening for incoming connections.
 -- It will loop indefinitely, handling one connection at a time.
+-- Updated runServer function to use dynamic port
 runServer :: RouteFunction -> IO ()
 runServer f = withSocketsDo $ do
-  addrInfo <- getAddrInfo (Just defaultHints { addrFlags = [AI_PASSIVE] }) Nothing (Just "3000")
+  -- Fetch the dynamic port from the environment or default to 3000
+  port <- fmap (fromMaybe "3000") (lookupEnv "PORT")
+  addrInfo <- getAddrInfo (Just defaultHints { addrFlags = [AI_PASSIVE] }) Nothing (Just port)
   let serverAddr = head addrInfo
   sock <- socket (addrFamily serverAddr) Stream defaultProtocol
   bind sock (addrAddress serverAddr)
   listen sock 1
-  putStrLn "Server listening on port 3000"
+  putStrLn $ "Server listening on port " ++ port
   serverLoop f sock
