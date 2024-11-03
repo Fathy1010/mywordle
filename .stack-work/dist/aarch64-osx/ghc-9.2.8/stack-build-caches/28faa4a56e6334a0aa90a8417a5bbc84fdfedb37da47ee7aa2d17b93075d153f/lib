@@ -1,0 +1,26 @@
+/Users/fat007/.ghcup/ghc/9.2.8/lib/ghc-9.2.8/lib/aarch64-osx-ghc-9.2.8/rts-1.0.2/include/ghcversion.h:
+  hash: 9fa7b57985804bb87ace2b7e702757d585d941ffb7ae2bd8c140e62bfaa97a80
+/Users/fat007/Desktop/Pers/wordle/mywordle/.stack-work/dist/aarch64-osx/ghc-9.2.8/build/autogen/Paths_tute11.hs:
+  hash: 5b78a44a0960995636e95b1382cefab46918fa79dbeb4e0869532ffcaf064ad4
+/Users/fat007/Desktop/Pers/wordle/mywordle/.stack-work/dist/aarch64-osx/ghc-9.2.8/build/autogen/cabal_macros.h:
+  hash: d16e9ef20fe20673e8ea88d86bdafd0e2e4327e585d61a02a66d1bbcd18fd200
+/Users/fat007/Desktop/Pers/wordle/mywordle/Parser/Instances.hs:
+  hash: 926eb5f2757c59ca38efef02fd9ba6aabf916609801a1e44fe14dfe7f63f40c3
+/Users/fat007/Desktop/Pers/wordle/mywordle/Parser/JSON.hs:
+  hash: 9d5eeef7f9ba96c9518e5ee837f3c753412f0c5e5b05bca8ce48dc81b095c88c
+/Users/fat007/Desktop/Pers/wordle/mywordle/Parser/Parser.hs:
+  hash: 9f540a71f3af222e86c1d6c9f3f74f4f316fadcb8cac116ae68b080e61359cb2
+/Users/fat007/Desktop/Pers/wordle/mywordle/Parser/SocketParser.hs:
+  hash: 68fa992d962f0f3f52e1c497c4574660b6cd6b1fb5533c0911ccaa817becf333
+/Users/fat007/Desktop/Pers/wordle/mywordle/README.md:
+  hash: 5e4a3a152f22a6d985899a6f5319f4aeab56ea6d3f420e4bc0e7d89c2702db6d
+/Users/fat007/Desktop/Pers/wordle/mywordle/package.yaml:
+  hash: 838a9fb24ff6b7420efb22ded3c14fb7bbea67d3de0dcef8f37d8703a2c00858
+/Users/fat007/Desktop/Pers/wordle/mywordle/src/RouteRequest.hs:
+  hash: 4e233276ee31d9528257b7606db7d159a08e4a3e2bc65b9eed02081a46bfdd5a
+/Users/fat007/Desktop/Pers/wordle/mywordle/src/SocketIO.hs:
+  hash: 8464c8a470d84eb1074f4ef11dc72f17077691aaaed44f1763678761b8bd9fee
+/Users/fat007/Desktop/Pers/wordle/mywordle/src/Wordle.hs:
+  hash: a1e91dd94d2c79f494c6b81c495f0e77ff5afc52398d71939f42312c99f364e9
+/Users/fat007/Desktop/Pers/wordle/mywordle/tute11.cabal:
+  hash: 9e3b899cf39f3dc1525e11f05d71609f78f6d39557811473d8acee416837adaf

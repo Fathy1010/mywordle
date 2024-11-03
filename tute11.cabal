@@ -42,13 +42,9 @@ library
       aeson
     , base >=4.7 && <5
     , bytestring
-    , http-types
     , network
     , text
     , time
-    , wai
-    , wai-cors
-    , warp
   default-language: Haskell2010
 
 executable main
@@ -60,16 +56,12 @@ executable main
       aeson
     , base >=4.7 && <5
     , bytestring
-    , http-types
     , mtl
     , network
     , scotty
     , text
     , time
     , tute11
-    , wai
-    , wai-cors
-    , warp
   default-language: Haskell2010
 
 test-suite watch
@@ -86,9 +78,5 @@ test-suite watch
     , base >=4.7 && <5
     , doctest
     , fsnotify
-    , http-types
     , network
-    , wai
-    , wai-cors
-    , warp
   default-language: Haskell2010
